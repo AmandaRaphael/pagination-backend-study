@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.1"
+  },
+  "scripts": {
+    "setup": "npm i && cd client && npm i",
+    "build": "cd client && npm run build"
+  },
+  "type": "module"
+}
